@@ -1,0 +1,5 @@
+#! /bin/bash
+
+count=10
+
+echo "Please print the count number $count"
