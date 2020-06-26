@@ -1,0 +1,21 @@
+#! /bin/bash
+
+echo "This is executing for loop scirpt file"
+bash for_loop
+
+cat readme.txt
+
+echo "This is executing script3 file"
+bash script3
+
+echo "This is executing script4 file"
+bash script4
+
+echo "This is executing script5 file"
+bash script5
+
+echo "This is executing script6 file"
+bash script6
+
+echo "This is executing shell_script file"
+bash shell_script
