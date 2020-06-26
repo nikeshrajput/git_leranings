@@ -4,7 +4,7 @@ pipeline{
   stages {
     stage("Build") {
       steps {
-        sh 'execute_feature1'
+        ./execute_feature1
       }
     }
   }
