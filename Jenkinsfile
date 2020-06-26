@@ -4,7 +4,7 @@ pipeline{
   stages {
     stage("Build") {
       steps {
-        bash execute.sh
+        bash execute_feature1.sh
       }
     }
   }
