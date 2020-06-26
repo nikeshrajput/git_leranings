@@ -4,7 +4,7 @@ pipeline{
   stages {
     stage("Build") {
       steps {
-          ./execute.sh
+          sh -x $WORKSPACE/execute.sh
       }
     }
   }
